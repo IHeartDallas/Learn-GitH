@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A1447DF28C55AD100DE5B23 /* MentalistDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1447DE28C55AD100DE5B23 /* MentalistDetailView.swift */; };
+		6AB60F8028C3C7F8008CC272 /* MentalistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB60F7F28C3C7F8008CC272 /* MentalistApp.swift */; };
+		6AB60F8228C3C7F8008CC272 /* MentalistListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB60F8128C3C7F8008CC272 /* MentalistListView.swift */; };
+		6AB60F8428C3C7F9008CC272 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AB60F8328C3C7F9008CC272 /* Assets.xcassets */; };
+		6AB60F8728C3C7F9008CC272 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AB60F8628C3C7F9008CC272 /* Preview Assets.xcassets */; };
+		6AB60F9428C3C98A008CC272 /* mentalistsquotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 6AB60F9328C3C98A008CC272 /* mentalistsquotes.json */; };
+		6AB60F9628C3CB9D008CC272 /* Mentalist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB60F9528C3CB9D008CC272 /* Mentalist.swift */; };
+		6AB60F9928C3CD6C008CC272 /* MentalistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB60F9828C3CD6C008CC272 /* MentalistModel.swift */; };
+		6AB60F9B28C3CE2E008CC272 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB60F9A28C3CE2E008CC272 /* DataService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A1447DE28C55AD100DE5B23 /* MentalistDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalistDetailView.swift; sourceTree = "<group>"; };
+		6AB60F7C28C3C7F8008CC272 /* Mentalist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mentalist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB60F7F28C3C7F8008CC272 /* MentalistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalistApp.swift; sourceTree = "<group>"; };
+		6AB60F8128C3C7F8008CC272 /* MentalistListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalistListView.swift; sourceTree = "<group>"; };
+		6AB60F8328C3C7F9008CC272 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AB60F8628C3C7F9008CC272 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6AB60F9328C3C98A008CC272 /* mentalistsquotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mentalistsquotes.json; sourceTree = "<group>"; };
+		6AB60F9528C3CB9D008CC272 /* Mentalist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentalist.swift; sourceTree = "<group>"; };
+		6AB60F9828C3CD6C008CC272 /* MentalistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalistModel.swift; sourceTree = "<group>"; };
+		6AB60F9A28C3CE2E008CC272 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AB60F7928C3C7F8008CC272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AB60F7328C3C7F8008CC272 = {
+			isa = PBXGroup;
+			children = (
+				6AB60F7E28C3C7F8008CC272 /* Mentalist */,
+				6AB60F7D28C3C7F8008CC272 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AB60F7D28C3C7F8008CC272 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AB60F7C28C3C7F8008CC272 /* Mentalist.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AB60F7E28C3C7F8008CC272 /* Mentalist */ = {
+			isa = PBXGroup;
+			children = (
+				6AB60F7F28C3C7F8008CC272 /* MentalistApp.swift */,
+				6AB60F8E28C3C88C008CC272 /* Models */,
+				6AB60F9728C3CD4A008CC272 /* ViewModels */,
+				6AB60F8F28C3C898008CC272 /* Views */,
+				6AB60F9028C3C8A6008CC272 /* Services */,
+				6AB60F8D28C3C87A008CC272 /* Data */,
+				6AB60F8328C3C7F9008CC272 /* Assets.xcassets */,
+				6AB60F8528C3C7F9008CC272 /* Preview Content */,
+			);
+			path = Mentalist;
+			sourceTree = "<group>";
+		};
+		6AB60F8528C3C7F9008CC272 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6AB60F8628C3C7F9008CC272 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6AB60F8D28C3C87A008CC272 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6AB60F9328C3C98A008CC272 /* mentalistsquotes.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6AB60F8E28C3C88C008CC272 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6AB60F9528C3CB9D008CC272 /* Mentalist.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6AB60F8F28C3C898008CC272 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6AB60F8128C3C7F8008CC272 /* MentalistListView.swift */,
+				6A1447DE28C55AD100DE5B23 /* MentalistDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6AB60F9028C3C8A6008CC272 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6AB60F9A28C3CE2E008CC272 /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6AB60F9728C3CD4A008CC272 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6AB60F9828C3CD6C008CC272 /* MentalistModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AB60F7B28C3C7F8008CC272 /* Mentalist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AB60F8A28C3C7F9008CC272 /* Build configuration list for PBXNativeTarget "Mentalist" */;
+			buildPhases = (
+				6AB60F7828C3C7F8008CC272 /* Sources */,
+				6AB60F7928C3C7F8008CC272 /* Frameworks */,
+				6AB60F7A28C3C7F8008CC272 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mentalist;
+			productName = Mentalist;
+			productReference = 6AB60F7C28C3C7F8008CC272 /* Mentalist.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AB60F7428C3C7F8008CC272 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					6AB60F7B28C3C7F8008CC272 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 6AB60F7728C3C7F8008CC272 /* Build configuration list for PBXProject "Mentalist" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AB60F7328C3C7F8008CC272;
+			productRefGroup = 6AB60F7D28C3C7F8008CC272 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AB60F7B28C3C7F8008CC272 /* Mentalist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AB60F7A28C3C7F8008CC272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB60F8728C3C7F9008CC272 /* Preview Assets.xcassets in Resources */,
+				6AB60F9428C3C98A008CC272 /* mentalistsquotes.json in Resources */,
+				6AB60F8428C3C7F9008CC272 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AB60F7828C3C7F8008CC272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB60F9B28C3CE2E008CC272 /* DataService.swift in Sources */,
+				6AB60F9628C3CB9D008CC272 /* Mentalist.swift in Sources */,
+				6AB60F9928C3CD6C008CC272 /* MentalistModel.swift in Sources */,
+				6A1447DF28C55AD100DE5B23 /* MentalistDetailView.swift in Sources */,
+				6AB60F8228C3C7F8008CC272 /* MentalistListView.swift in Sources */,
+				6AB60F8028C3C7F8008CC272 /* MentalistApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6AB60F8828C3C7F9008CC272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AB60F8928C3C7F9008CC272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AB60F8B28C3C7F9008CC272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mentalist/Preview Content\"";
+				DEVELOPMENT_TEAM = 9L7XQYRAWB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Terese.Mentalist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AB60F8C28C3C7F9008CC272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mentalist/Preview Content\"";
+				DEVELOPMENT_TEAM = 9L7XQYRAWB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Terese.Mentalist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AB60F7728C3C7F8008CC272 /* Build configuration list for PBXProject "Mentalist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AB60F8828C3C7F9008CC272 /* Debug */,
+				6AB60F8928C3C7F9008CC272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AB60F8A28C3C7F9008CC272 /* Build configuration list for PBXNativeTarget "Mentalist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AB60F8B28C3C7F9008CC272 /* Debug */,
+				6AB60F8C28C3C7F9008CC272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AB60F7428C3C7F8008CC272 /* Project object */;
+}

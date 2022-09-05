@@ -1,0 +1,59 @@
+[
+    {
+    "name": "Patrick Jane",
+    "majorQuote": "I Love that women in seat 16B",
+    "image": "jane",
+    "image2": "jane2",
+    "quotes": [
+        "This was done by Red John",
+        "Tea is like a hug in a cup",
+        "Discipline always comes with a price."
+    ]
+},
+    {
+    "name": "Teresa Lisbon",
+    "majorQuote": "Bite me.",
+    "image": "lisbon",
+    "image2": "lisbon2",
+    "quotes": [
+        "You drive way too fast.",
+        "Awe, Jane kissed a girl.",
+        "So, he's gonna keep us in the loop"
+    ]
+},
+    
+    {
+    "name": "Cho Kimball",
+    "majorQuote": "Bosco's team calls us Bert and Ernie.",
+    "image": "cho",
+    "image2": "cho2",
+    "quotes": [
+        "You could go crazy at Olive Garden.",
+        "T-Rex are losers. Little arms. It's chicken with teeth.",
+        "Yes, he is. Hitmen aren't cheap and they don't take credit cards."
+    ]
+},
+    {
+    "name": "Rigsby",
+    "majorQuote": "Was I snoring again?",
+    "image": "rigsby",
+    "image2": "rigsby2",
+    "quotes": [
+        "Be fair. Not all the Doctors are cold and creepy.",
+        "What do you think of these dating services anyway?",
+        "We're like the F.B.I., only more conveniently located."
+    ]
+},
+    {
+    "name": "Van Pelt",
+    "majorQuote": "Does Jane seem off to you?",
+    "image": "vanPelt",
+    "image2": "vanpelt2",
+    "quotes": [
+        "It's like a furniture catalogue threw up in here.",
+        "You ruined a girl's wedding.",
+        "I got it worse. I'm lost in the woods with a grumpy hooker."
+    ]
+}
+    
+]
