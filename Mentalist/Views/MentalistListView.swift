@@ -25,7 +25,7 @@ struct MentalistListView: View {
                     .cornerRadius(10)
                 Text(r.majorQuote)
                     .font(.title2)
-                    .background(Color.cyan)
+                    .background(Color.blue)
                     .frame(width: 300,height: 80, alignment: .center )
                 
                     }
